@@ -31,7 +31,6 @@ img
 #form-container
 {
     display: flex;
-    background-color: rgb(248,248,248);
     flex-direction: column;
        width: 60%;
 }
@@ -55,10 +54,8 @@ img
 fieldset
 {
     border-color: grey;
-    /* Center the form on the page */
     margin: 0 auto;
     width: 90%;
-    /* Form outline */
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
@@ -103,25 +100,18 @@ form li + li {
   }
 
 label {
-    /* Uniform size & alignment */
     display: flex;
     width: fit-content;
   }
 
 input {
-    /* To make sure that all text fields have the same font settings
-    By default, textareas have a monospace font */
     font: 1em sans-serif;
-
-    /* Uniform text field size */
     width:300px;
     box-sizing: border-box;
-    /* Match form field borders */
     border: 1px solid #999;
   }
 
     input:focus{
-    /* Additional highlight for focused elements */
     border-color: #000;
   }
   .button {
@@ -134,8 +124,6 @@ input {
     }
 
 button {
-    /* This extra margin represent roughly the same space as the space
-    between the labels and their text fields */
     border-radius: 5px;
     border-style: none;
     background-color: 	rgb(160,160,160);
@@ -170,4 +158,13 @@ button {
         font-weight: bold;
         color: rgb(72,72,72);
         margin-left: 0.5em;
+    }
+    #message
+    {
+        display: flex;
+        justify-items: center;
+        text-align: left;
+       margin-top: 0.5rem;
+       width: 90%;
+       font: 0.9em sans-serif;
     }
