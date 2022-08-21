@@ -1,0 +1,173 @@
+#container
+{
+    display: flex;
+    justify-items: center;
+}
+#background-container
+{
+    display: flex;
+    background-image: url('lucas-calloch-a4VY2mxo6uM-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+}
+.logo-container
+{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 50rem;
+    width: 100%;
+    background-color:rgba(255,255,255,0.3);
+    justify-content: center;
+    text-align: center;
+}
+img
+{
+    width: 10em;
+}
+#form-container
+{
+    display: flex;
+    background-color: rgb(248,248,248);
+    flex-direction: column;
+       width: 60%;
+}
+.welcome
+{
+    display: flex;
+    font-weight: bold;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    font-size: 24px;
+    text-align: center;
+}
+.modal
+{
+    display: flex;
+    width: fit-content;
+    font-size: 24px;
+}
+fieldset
+{
+    border-color: grey;
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 90%;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+#field-div
+{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    width: auto;
+}
+.first-input
+{
+    width: fit-content;
+    margin-right: 3rem;
+}
+.second-input
+{
+    width: fit-content;
+    margin-left: 3rem;
+}
+#footer2
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+}
+
+
+ul   {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+form li + li {
+    margin-top: 1em;
+  }
+
+label {
+    /* Uniform size & alignment */
+    display: flex;
+    width: fit-content;
+  }
+
+input {
+    /* To make sure that all text fields have the same font settings
+    By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* Uniform text field size */
+    width:300px;
+    box-sizing: border-box;
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+
+    input:focus{
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  .button {
+    display: flex;
+    justify-items: center;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 90%;
+    }
+
+button {
+    /* This extra margin represent roughly the same space as the space
+    between the labels and their text fields */
+    border-radius: 5px;
+    border-style: none;
+    background-color: 	rgb(160,160,160);
+    color: white;
+    font: 1em sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-weight: bold;
+    }
+    .button:hover
+    {
+        color: #000;
+    }
+    button:active
+    {
+        background-color: rgb(200,200,200);
+    }
+    .registered
+    {
+        display: flex;
+        justify-items: center;
+        text-align: left;
+       margin: 0 auto;
+       margin-top: 2rem;
+       width: 90%;
+       font: 1em sans-serif;
+    }
+    .login{
+        font: 1em sans-serif;
+        font-weight: bold;
+        color: rgb(72,72,72);
+        margin-left: 0.5em;
+    }
